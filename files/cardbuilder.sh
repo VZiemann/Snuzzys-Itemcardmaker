@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# test if directories have already been created
+mkdir -p cards
+mkdir -p items
+mkdir -p images
+
 # loop over files
 	# extract filename
 	# check if file is not yet generated 
