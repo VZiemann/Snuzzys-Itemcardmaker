@@ -3,7 +3,10 @@ A simple tool to generate itemcards for Pen and Paper or similar games from json
 
 Needs to be run from files/
 
-[[!example.png]]
+[[example.png]]
+p align="center">
+  <img src="example.png" width="860" alt="Simple example of rendered cards.">
+</p>
 
 Currently only works on Linux distributions due to how paths are called.
 
