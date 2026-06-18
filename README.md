@@ -1,6 +1,8 @@
 # Snuzzys-Itemcardmaker
 A simple tool to generate itemcards for Pen and Paper or similar games from json files. Uses Typst for formatting and a small shell script for batchmaking. 
 
+Needs to be run from files/
+
 Currently only works on Linux distributions due to how paths are called.
 
 Running cardbuilder.sh will compile any not up to date items from "files/items/". If no directories have been created the script will create them for the user. Items will only be rendered if their json file is newer than the rendered card, or if no image has been rendered yet. 
