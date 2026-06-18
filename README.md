@@ -3,6 +3,8 @@ A simple tool to generate itemcards for Pen and Paper or similar games from json
 
 Needs to be run from files/
 
+[[!example.png]]
+
 Currently only works on Linux distributions due to how paths are called.
 
 Running cardbuilder.sh will compile any not up to date items from "files/items/". If no directories have been created the script will create them for the user. Items will only be rendered if their json file is newer than the rendered card, or if no image has been rendered yet. 
